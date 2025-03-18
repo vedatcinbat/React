@@ -5,19 +5,19 @@
 o Introduction to React and TypeScript [Done]
     - What is React ? What is TypeScript
     - Benefits of using TypeScript in React projects
-o Setting Up the Environment
+o Setting Up the Environment [Done]
     - Installing Node.js, npm, and vite
     - Setup React|TypeScript project with vite
     - Overview of project structure
-o Fundamentals of TypeScript
+o Fundamentals of TypeScript [Done]
     - Basic types, interfaces, and type aliases
     - Type inference and explicit typing
-o React Basics with TypeScript
+o React Basics with TypeScript [Done]
     - Understanding JSX and TSX files
     - Creating and using Functional Components with type annotations
     - Defining and validating props using interfaces or types
     - Handling state with the useState hook
-o Event Handling and Conditional Rendering
+o Event Handling and Conditional Rendering [Done]
     - Typing event handlers: onClick, onChange
     - Conditional rendering and list rendering in TypeScript
 
@@ -66,44 +66,5 @@ o Ecosystem Integration
     - Integrating with external libraries and ensuring proper TypeScript support
     - Using GraphQL with TypeScript in React applications    
 
-
-
-#####################################################################################################################
-o Introduction to React and TypeScript
-- What is React ? What is TypeScript
-    * REACT
-        - Popular Javascript library developed by Facebook for building user interfaces
-        - Particularly SPAs
-        - Component-Based Architecture: React encourages building encapsulated components that manage their own state, making it easier to build and maintain complex UI
-        - Declarative Syntax: You descripğbe how te UI should look for a given state, and React efficiently updates and renders the right components when your data changes
-        - Virtual DOM: React uses a virtual DOM to optimize UI rendering, leading to faster performance and a smoother user experience    
-    
-    * TYPESCRIPT
-        - Statically typed superset of JavaScript developed by Microsoft
-        - In introduces strong type-checking to JavaScript
-        - Static Typing: By defining types for variables, function parameters, and object properties, TypeScript helps reduce runtime errors
-        - Enhanced Code Quality: It improves code readability and maintainability, making large-scale applications easier to manage
-
-- Benefits of using TypeScript in React projects
-    - Improved Developer experience
-    - Early Error Detection
-    - Better Documentation
-    - Enhanced Refactoring
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-o Setting Up the Environment
-    - Setup React|TypeScript project with vite
-        > npm create vite@latest my-react-ts-app
-
-    - Overview of project structure
-        - index.html: The main HTML file where your React app is mounted
-        - package.json: Contains metadata about your project and lists all teh dependencies and scripts
-        - vite.config.ts: Configuration file for Vite where you can customize the build process
-        - src/ directory
-            - main.tsx: The entry point of your React application. This file renders the root component
-            to the DOM
-            - App.tsx: A sample React component that serves as the starting point for your application
-        - public/ directory: Static assets like images, fonts, and other files that will be copied directly
-        into the build output
-
+----------------------------------------------------------------------------------------
+# Important Notes #
