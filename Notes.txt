@@ -24,7 +24,7 @@ o Event Handling and Conditional Rendering [Done]
 ----------------------------------------------------------------------------------------------------
 # Intermediate Topics
 
-o React Hooks in Depth
+o React Hooks in Depth [Done]
     - useEffect: handling side effects with proper typings
     - useContext: creating and consuming context with TypeScript
     - useReducer: using reducers in TypeScript for state management
