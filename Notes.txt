@@ -28,16 +28,16 @@ o React Hooks in Depth [Done]
     - useEffect: handling side effects with proper typings
     - useContext: creating and consuming context with TypeScript
     - useReducer: using reducers in TypeScript for state management
-o Custom Hooks
+o Custom Hooks [Done]
     - Componentsreating reusable hooks with TypeScript
     - Best practices for typing custom hooks
-o Forms and Input Handling
+o Forms and Input Handling [Done]
     - Building controlled components with TypeScript
     - Form libraries and how to type them
-o Component Composition and Patterns
+o Component Composition and Patterns [Done]
     - Higher-Order Components (HOC) and Render Props with TypeScript
     - Prop drilling vs context API
-o Routing in React
+o Routing in React [Done]
     - Integrating React Router with TypeScript
     - Typing route parameters and navigation props
 
