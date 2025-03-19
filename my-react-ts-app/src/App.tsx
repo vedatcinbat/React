@@ -1,7 +1,10 @@
 import './App.css'
 import CounterWithRedux from './components/Advanced/CounterWithRedux'
 import CounterWithThunk from './components/Advanced/CounterWithThunk'
+import ExpensiveComponent from './components/Advanced/ExpensiveComponent'
 import GenericComponent from './components/Advanced/GenericComponent'
+import ParentComponent from './components/Advanced/ParentComponent'
+import LoginForm from './components/MaterialComponents/LoginForm'
 /* import ClickableButton from './components/Basics/ClickableButton'
 import Counter from './components/Basics/Counter'
 import Greeting from './components/Basics/Greeting'
@@ -50,11 +53,15 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/user/:id" element={<User />} />
         </Routes>
-      </Router>*/}
+      </Router>
 
       <GenericComponent />
       <CounterWithRedux />
       <CounterWithThunk />
+      {/* <ExpensiveComponent value={12} /> 
+      <ParentComponent />*/}
+
+      <LoginForm />
     </>
   )
 }
