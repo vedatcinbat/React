@@ -1,4 +1,7 @@
 import './App.css'
+import CounterWithRedux from './components/Advanced/CounterWithRedux'
+import CounterWithThunk from './components/Advanced/CounterWithThunk'
+import GenericComponent from './components/Advanced/GenericComponent'
 /* import ClickableButton from './components/Basics/ClickableButton'
 import Counter from './components/Basics/Counter'
 import Greeting from './components/Basics/Greeting'
@@ -14,10 +17,10 @@ import LoginForm from './components/Intermediate/LoginForm'
 import MouseTracker from './components/Intermediate/MouseTracker'*/
 
 // Routing
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+/* import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import User from './pages/User';
+import User from './pages/User'; */
 
 const App: React.FC = () => {
 
@@ -39,7 +42,7 @@ const App: React.FC = () => {
       <LoginForm />
       <FormikLoginForm />
       <DataDisplayWithLoading isLoading={false} data='Hello, World!' />
-      <MouseTracker render={({ x, y }) => <p>Mouse Position: {x}, {y}</p>} /> */}
+      <MouseTracker render={({ x, y }) => <p>Mouse Position: {x}, {y}</p>} /> 
 
       <Router>
         <Routes>
@@ -47,7 +50,11 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/user/:id" element={<User />} />
         </Routes>
-      </Router>
+      </Router>*/}
+
+      <GenericComponent />
+      <CounterWithRedux />
+      <CounterWithThunk />
     </>
   )
 }

@@ -44,24 +44,16 @@ o Routing in React [Done]
 ----------------------------------------------------------------------------------------------------
 # Advanced Topics
 
-o Advanced TypeScript Techniques
+o Advanced TypeScript Techniques [Done]
     - Generics in components and hooks
     - Utility types: Partial | Pick | Omit
     - Advanced type inference and conditional types in React patterns
-o State Management Strategies
-    - Context API advanced patterns
-    - Integrating Redux or Zustand with TypeScript
+o State Management Strategies [Done]
+    - Integrating Redux with TypeScript
     - Using middleware and side effects in typed state management
 o Performance Optimization
     - Memoization techniques with React.memo and useCallaback
     - Code splitting and lazy loading with Suspense
-o Best Practices and Patterns
-    - Code architecture and folder structure for scalable projects
-    - Error boundaries and robust error handling strategies
-    - Accessibility and internationalization in React with TypeScript
-o Deployment and Build Optimization
-    - Production build considerations
-    - Integrating with CI/CD pipelines
 o Ecosystem Integration
     - Integrating with external libraries and ensuring proper TypeScript support
     - Using GraphQL with TypeScript in React applications    
